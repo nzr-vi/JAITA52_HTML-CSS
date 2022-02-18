@@ -1,0 +1,119 @@
+*{
+    font-family: 'Libre Franklin', sans-serif;
+    box-sizing: border-box;
+}
+
+
+strong{
+    font-weight: 700;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background: #1e3957;
+    color: #f3f3f3;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin-top: 10rem;
+}
+
+footer div{
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+blockquote{
+    border-left: .9rem solid #e2cb00;
+    background-color: #f3f3f3;
+    margin: 0;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    padding-left: 1.2rem;
+    font-size: 1.8rem;
+}
+
+.container{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.slides{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.slides img{
+    width: 33%;
+    min-width: 20%;
+    height: auto;
+}
+
+.slides_desc_right{
+    margin: auto;
+    margin-left: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.slides_desc_left{
+    margin: auto;
+    margin-right: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.menu_items{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;    
+}
+
+.menu_items a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: auto;
+    margin-left: 3rem;
+}
+
+.menu img{
+    height: 8rem;
+    width: auto;
+}
+
+
+.full_size_img{
+    width: 100%;
+}
+
+
+#social_footer_icons{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+
+#social_footer_icons img{
+    display: flex;
+    width: 1.4rem;
+    filter: invert(100%);
+    margin: .7rem;
+}
