@@ -1,0 +1,136 @@
+h2{
+    color: #4a0202;
+    font-family: 'Pacifico', cursive;
+}
+
+h3{
+    font-family: 'Pacifico', cursive;
+}
+
+.container{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.logo{
+    height: 2.5rem;
+}
+
+/*  HERO  */
+
+#hero {
+    position:relative;
+}
+
+.cta {
+    position:absolute;
+    color:#efefef;
+
+    left:0;
+    top:0;
+    
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctaContent{
+    color: white;
+    text-shadow: 0 .2rem .5rem #00000090;
+}
+
+.ctaContent h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+}
+
+/*  FULL IMAGE  */
+
+.full_img {
+    height: 40rem;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+#hero .full_img{
+    background-image: url('./img/hero_centered.jpg');
+}
+
+#mid_page_img .full_img{
+    background-image: url('./img/banner_2.jpg');
+}
+
+
+/*   HORIZONTAL BAN   */
+
+.horizontal_ban{
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.hb_Text{
+    padding: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.hb_img img{
+    width: 100%;
+    padding: 0rem;
+}
+
+.hb_Text p{
+    color: #4a0202;
+    font-size: 1.2rem;
+}
+
+.hb_Text h2{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.hb_Text button{
+    margin-left: .5rem;
+    margin-top: 2rem;
+}
+
+
+/*  FADED CARDS  */
+
+#last_offers{
+    
+}
+
+
+/*  MEDIA QUERY*/
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+      position: fixed;
+      top: 56px; /* Height of navbar */
+      bottom: 0;
+      left: 100%;
+      width: 100%;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      overflow-y: auto;
+      visibility: hidden;
+      background-color: #343a40;
+      transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    }
+    .offcanvas-collapse.open {
+      visibility: visible;
+      transform: translateX(-100%);
+
+      z-index:99;
+    }
+  }
