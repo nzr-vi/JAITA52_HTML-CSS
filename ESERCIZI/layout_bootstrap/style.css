@@ -107,13 +107,157 @@ h3{
 /*  FADED CARDS  */
 
 #last_offers{
-    
+    box-sizing: content-box;
+    background: rgb(255,234,207);
+    background: linear-gradient(180deg, rgba(255,234,207,1) 0%, rgba(227,207,253,1) 100%);
+    padding-bottom: 1.5rem;
+}
+
+#last_offers .container{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5rem;
 }
 
 
+.dashed{
+    margin: 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed black;
+}
+
+.cards{
+    padding-top: 4rem;
+}
+
+.card{
+    border-radius: 0 0 .5rem .5rem;
+    padding: 0;
+}
+
+/*  CONTACTS  */
+
+#contact_form{
+    padding-top: 2rem;
+}
+
+#contact_form .container{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.contact_form_container{
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+}
+
+.form-control{
+    background-color: #f6f6f6;
+    border-radius: 0;
+    padding-bottom: 0;
+}
+
+.message_full{
+    height: 100%;
+}
+
+.message_full textarea{
+    resize:none;
+    width: 100%;
+}
+
+.form-check input[type="checkbox"]{
+    border-radius: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.form-check label{
+    padding: 1rem;
+}
+
+
+/*  FOOTER  */
+
+.footer_imgs{
+    padding: 1rem;
+}
+
+.footer_div{
+    text-align: center;
+}
+
+footer{
+    background-color: #7571bb;
+    margin: 0;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+footer .container{
+    margin: 0;
+    height: 100%;
+}
+
 /*  MEDIA QUERY*/
 
-@media (max-width: 991.98px) {
+@media (max-width: 900px) {
+    .contact_form_container div{
+        padding-bottom: .5rem;
+    }
+
+    .contact_form_container button{
+        width: 100%;
+        margin: .5rem;
+        margin-top: 1.5rem;
+    }
+
+    #contact_form .container{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    .hb_Text{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .card{
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+
+    .hb_Text{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .hb_Text button{
+        margin-top: .5rem;
+    }
+
+    .container{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .horizontal_ban{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .full_img{
+        height: 25rem;
+    }
+}
+
+@media (max-width: 900px) {
     .offcanvas-collapse {
       position: fixed;
       top: 56px; /* Height of navbar */
